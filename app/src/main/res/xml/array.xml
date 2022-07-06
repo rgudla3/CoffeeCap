@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name = "coffeeOptions">
+        <item>Brewed Coffee</item>
+        <item>Espresso</item>
+        <item>Instant Coffee</item>
+        <item>Brewed Decaf Coffee</item>
+        <item>Cafe Americano</item>
+        <item>Blonde Roast</item>
+        <item>Cappuccino</item>
+        <item>Flat White</item>
+        <item>Cafe Latte</item>
+        <item>Caramel Macchiato</item>
+        <item>Cafe Mocha</item>
+        <item>White Chocolate Mocha</item>
+    </string-array>
+
+</resources>

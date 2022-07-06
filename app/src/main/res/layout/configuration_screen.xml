@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/configscreenbg"
+    tools:context=".ConfigurationScreen">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Welcome to CoffeeCap!"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/nameHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameInput"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Let's get started! What's your name?" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="serif-monospace"
+            android:hint="First Name (John)"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/appDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/submitButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="CoffeeCap is an application that allows users to track their caffeine intake. Created by Harshika Gelivi, Reshma Gudla, and Maya Pillarisetti."
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
